@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 1rem; 
+    background-color: #171C17;
+    overflow: hidden;
+  }
+
+  .container {
+    height: 100vh; 
+  }
+  
+  .input {
+    width: 40rem; 
+    height: 5rem; 
+    border: solid 0.5rem #006600; 
+    border-radius: 100px;
+    background-color: aliceblue;
+    outline: none;
+  }
+  
+  .button {
+    width: 12rem; 
+    height: 3.5rem; 
+    border-radius: 25px;
+    border: solid 0.3rem green; 
+    color: green;
+    background-color: white;
+    padding: 0.5rem 1rem; 
+    font-size: 1rem;
+  }
+  .menu{
+    height: 16.258vw;
+    background-color: #214521;
+  }
+  a{
+    background-color: #214521;
+  }
+  .menu h2{
+    margin-left: 4vw;
+    color: white;
+    background-color: #214521;
+  }
+  .menu input{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1vw;
+    background-color: white;
+    margin-top: 5.5vw;
+    width: 22.69vw;
+    height: 3.66vw;
+    border-radius: 0.73vw;
+    border: none;
+  }
+  .namebar{
+    height:8.581vw;
+    background-color: black;
+    margin-left: none;
+  }
+  .col-3.chats{
+    height: 28.55vw;
+    background-color: white;
+    padding: 0;
+  }
+  .perfil{
+    height: 5.85vw;
+    width: 5.85vw;
+    margin-top: 1.24vw;
+    border-radius: 100px;
+    background-color: white;
+  }
+  .com{
+    background-color: black;
+    height: 7.32vw;
+    
+  }
+  .col-11{
+    height: 4.02vw;
+    border-radius: 1.09vw;
+    margin-top: 1.83vw;
+    
+  }
+  .col-11 input{
+    color: white;
+    font-size: 1.5vw;
+    height: 4.02vw;
+    width: 100%;
+    border-radius: 1.09vw;
+    border: none;
+    background-color: #214521;
+    margin-left: 0.73vw;
+  }
+  .col-11 input::placeholder{
+    font-size: 2.92vw;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+  }
+.botao{
+  background-color: #214521 ;
+  height: 4.02vw;
+  width: 5.85vw;
+  border-radius: 0.73vw;
+  border: none;
+  
+}
+.col-12.conv {
+  padding: 0;
+}
+.conv{
+  height: 7.07vw;
+  background-color: white;
+  border-bottom: 0.21vw solid #214521;
+}
+.foto{
+  width: 5.12vw;
+  height: 5.12vw;
+  border-radius: 7.32vw;
+  margin-top: 0.90vw;
+  margin-left: 1.3vw;
+}
+
+.nome p{
+  background-color: white;
+}
+.send{
+  width: 2.92vw;
+  height: 2.92vw;
+  background-color: #214521;
+}
+.voltar{
+  width: 2.92vw;
+  height: 2.92vw;
+  margin-top: 1.83vw;
+  margin-left: 1.83vw;
+  background-color: #214521;
+  rotate: 180deg;
+}
+.lx{
+  background-color: #214521;
+}
+::-webkit-scrollbar-track {
+  background-color: #F4F4F4;
+  
+  
+}
+::-webkit-scrollbar {
+  width: 0.43vw;
+  background: #F4F4F4;
+  
+}
+::-webkit-scrollbar-thumb {
+  background: #034703;
+}
+.chats .conv {
+  transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out; 
+}
+
+.chats .conv:hover {
+  transform: scale(1.02);
+}
+.col-12 h6{
+  margin-left: 7.7vw;
+  margin-top: -4.3vw;
+  background-color: white;
+  font-size: 2.6vw;
+}
